@@ -1,0 +1,19 @@
+.titleall {
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #ddd;
+  position: relative;
+  text-transform: uppercase;
+  color: #396dc9;
+}
+
+.grid-moitruong {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  -grid-template-rows: repeat(2, 1fr);
+  grid-gap: 0.5rem;
+}
+.grid-moitruong div {
+  border: 1px solid #ddd;
+}

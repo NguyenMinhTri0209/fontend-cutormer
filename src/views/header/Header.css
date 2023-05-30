@@ -1,0 +1,135 @@
+.top-header {
+  background: rgb(57, 109, 201);
+}
+
+.fa-regular.fa-clock {
+  color: #fff;
+}
+
+.search-btn {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.search-btn i {
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.search-btn:hover i {
+  color: #000;
+}
+
+.logo-header {
+  height: 70px;
+  width: 260px;
+}
+
+.locationImage,
+.hotlineImage {
+  height: 40px;
+  width: 40px;
+}
+
+.menu {
+  border-top: 1px solid #ddd;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li a.active-menu {
+  color: #396dc9;
+  border-bottom: 3px solid #396dc9;
+}
+
+.menu ul li a {
+  color: #555555;
+  padding: 12px 15px 6px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/*gom ve*/
+.mainmenu {
+  position: relative;
+}
+.mainmenu:hover .submainmenu {
+  top: 100%;
+  pointer-events: all;
+  opacity: 1;
+}
+.submainmenu {
+  position: absolute;
+  top: 120%;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 500ms;
+  left: 0;
+  background: #396dc9;
+  box-shadow: 0 0 4px #fff;
+  z-index: 9999;
+  min-width: 186px;
+}
+.submainmenu li a {
+  color: #fff !important;
+  display: block !important;
+}
+.submainmenu li {
+  border-bottom: 1px solid #fff;
+}
+.submainmenu li:hover {
+  background: #1e4790;
+}
+
+/* submenu1 */
+.lisubmainmenu {
+  position: relative;
+}
+.lisubmainmenu:hover .lisubmainmenu1 {
+  pointer-events: all;
+  opacity: 1;
+  left: 100%;
+}
+.lisubmainmenu1 {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 500ms;
+  left: 130%;
+  width: max-content;
+  background: #396dc9;
+  box-shadow: 0 0 4px #fff;
+  z-index: 9999;
+}
+
+/* submenu2 */
+.lisubsubmainmenu {
+  position: relative;
+}
+.lisubsubmainmenu:hover .lisubmainmenu2 {
+  pointer-events: all;
+  opacity: 1;
+  left: 100%;
+}
+.lisubmainmenu2 {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 500ms;
+  left: 100%;
+  width: max-content;
+  background: #396dc9;
+  box-shadow: 0 0 4px #fff;
+  z-index: 9999;
+}

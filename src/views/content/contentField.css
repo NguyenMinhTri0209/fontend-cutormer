@@ -1,0 +1,28 @@
+.titleall {
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #ddd;
+  position: relative;
+  text-transform: uppercase;
+  color: #396dc9;
+}
+
+.listbaivietnoibat {
+  list-style: none;
+}
+
+.listbaivietnoibat li {
+  padding-left: 35px;
+  padding-bottom: 7px;
+  margin-bottom: 10px;
+  background: url(./read.svg) no-repeat left;
+  background-size: 25px;
+  border-bottom: 1px dashed;
+}
+
+.listbaivietnoibat li a {
+  color: #5f6566;
+  text-decoration: none;
+  background-color: transparent;
+}

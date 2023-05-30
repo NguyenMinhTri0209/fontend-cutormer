@@ -1,0 +1,89 @@
+.titleall {
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #ddd;
+  position: relative;
+  text-transform: uppercase;
+  color: #396dc9;
+}
+
+.ckdt-item {
+  display: block;
+  border: 1px solid gray;
+  margin-bottom: 15px;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.ckdt-item.active {
+  background: #396dc9;
+  color: white;
+  border: none;
+}
+
+.ckdt-top {
+  display: flex;
+}
+
+.ckdt-top-l {
+  width: 285px;
+  margin-right: 1rem;
+}
+
+img {
+  max-width: 100%;
+  /* min-width: 279px;
+  min-height: 186px; */
+  height: auto;
+}
+
+.ckdt-bottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  grid-row-gap: 20px;
+}
+
+.ckdt-bottom-item {
+  display: flex;
+}
+
+.ckdt-bottom-l {
+  width: 100px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.ckdt-top-l img {
+  min-width: 279px;
+  min-height: 186px;
+}
+
+.ckdt-top-main h3 a {
+  /* color: #5f6566; */
+  text-decoration: none;
+  background-color: transparent;
+}
+.ckdt-bottom-r a {
+  color: #5f6566;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.ckdt-bottom-r {
+  width: calc(100% - 100px);
+}
+
+.ckdt-bottom-r h4 {
+  line-height: 14px;
+}
+
+.ckdt-bottom-r span {
+  font-size: 0.8rem;
+}
+
+.ckdt-bottom-r a {
+  font-size: 0.8rem;
+}

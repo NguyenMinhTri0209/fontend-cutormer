@@ -1,0 +1,26 @@
+.titleall {
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #ddd;
+  position: relative;
+  text-transform: uppercase;
+  color: #396dc9;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.titleuudiem {
+  font-size: 19px;
+  color: var(--title);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contentuudiem {
+  text-align: justify;
+  color: var(--title);
+}

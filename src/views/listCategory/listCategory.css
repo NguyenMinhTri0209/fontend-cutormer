@@ -1,0 +1,29 @@
+.container {
+  width: 960px !important;
+}
+.list-category a {
+  display: inline-block;
+  flex: 1;
+  text-align: center;
+  color: #5f6566;
+  text-decoration: none;
+  background-color: transparent;
+}
+.list-category .item-category img {
+  max-width: 65px;
+}
+.list-category .item-category p {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.btn-tuvan {
+  background: #ff6347 !important;
+  color: #fff !important;
+  padding: 5px 27px !important;
+  font-size: 20px;
+}
+
+.textCategory {
+  text-align: justify;
+}

@@ -1,0 +1,48 @@
+.dangkygiua {
+  background: url(./background.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.btn-success {
+  border-radius: 25px !important;
+  padding: 5px 27px !important;
+  color: #fff;
+  background: #1ecca9;
+}
+
+.datepicker {
+  border: 1px white solid !important;
+}
+
+.custom-datepicker {
+  border: 1px solid #ccc;
+  border-radius: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  color: #333;
+  background-color: #fff;
+  width: 412px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.custom-select {
+  /* border: 1px solid #ccc; */
+  border-radius: 0.375rem;
+  /* padding: 0.375rem 0.75rem; */
+  font-size: 1rem;
+  color: #333;
+  background-color: #fff;
+  width: 412px;
+}
+
+@media (max-width: 993px) {
+  .custom-datepicker {
+    width: 292px;
+  }
+}
+
+@media (max-width: 767px) {
+  .custom-datepicker {
+    width: 202px;
+  }
+}
